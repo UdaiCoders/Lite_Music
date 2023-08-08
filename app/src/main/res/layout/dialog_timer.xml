@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Sleep Timer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="0 minutes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/timer_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:progress="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button_stop"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP" />
+
+        <Button
+            android:id="@+id/button_hide"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIDE" />
+    </LinearLayout>
+
+</LinearLayout>

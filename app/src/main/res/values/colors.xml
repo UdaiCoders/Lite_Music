@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0098DA</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Seek Bar Color -->
+    <color name="seek_bg1">#EBEBEB</color> <!-- style 1,2,3,5,7 -->
+    <color name="seek_thumb">#00AFEF</color> <!-- all style -->
+    <color name="seek_progress">#00AFEF</color> <!-- all style -->
+    <color name="seek_border">#00AFEF</color> <!-- style 4,6 -->
+    <color name="seek_thumb_border">#ffffff</color>
+
+    <color name="grey">#666666</color>
+    <color name="darker_grey">#4B4B4D</color>
+    <!-- other color -->
+    <color name="soft_grey">#EBEBEB</color>
+    <color name="soft_grey2">#DBDBDB</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+    <color name="grey_dark">#332C2B</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+    <color name="black_overlay">#B3000000</color>
+    <color name="white_overlay">#66FFFFFF</color>
+
+    <color name="timer_sign_color">#FF7043</color>
+
+    <string-array name="arr_main_color_name">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+
+        <item>Light Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light Green</item>
+
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Blue Grey</item>
+        <item>Brown</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="arr_main_color_code">
+        <item>#0098DA</item>
+        <item>#F44336</item>
+        <item>#EC407A</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+
+        <item>#03A9F4</item>
+        <item>#00BCD4</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#8BC34A</item>
+
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+        <item>#795548</item>
+        <item>#607D8B</item>
+        <item>#000000</item>
+    </string-array>
+
+</resources>

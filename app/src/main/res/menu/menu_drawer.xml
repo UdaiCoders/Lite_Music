@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_nav_theme"
+            android:title="@string/title_nav_theme" />
+
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic_nav_timer"
+            android:title="@string/title_nav_time"
+            app:actionLayout="@layout/menu_dot_sign" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_nav_rate"
+            android:title="@string/title_nav_rate" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_nav_about"
+            android:title="@string/title_nav_about" />
+
+    </group>
+
+</menu>
